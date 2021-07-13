@@ -1,11 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import SVG from './Assets/SVG.png'
-import './index.css'
-const Index = () => {
-  return <div className="container" >
-  			<img src={SVG} width="80%"/>
-		</div>;
-};
+import App from './App.js'
 
-ReactDOM.render(<Index />, document.getElementById("index"));
+
+
+ReactDOM.render(<App />, document.getElementById("index"));
